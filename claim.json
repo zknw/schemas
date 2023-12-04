@@ -1,0 +1,24 @@
+{
+    "$metadata": {
+      "version": "1.0",
+      "type": "claim"
+    },
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Claim Invite",
+    "title": "Claim Invite",
+    "properties": {
+        "issuer": {
+            "description": "Issuer",
+            "type": "string"
+        },
+        "recipient": {
+            "description": "Recipient",
+            "type": "string"
+        }
+    },
+    "required": [
+      "issuer",
+      "recipient"
+    ],
+    "type": "object"
+  }
